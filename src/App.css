@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: #f5d7f8;
+}
+
+.weather-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header{
+  font-family: Nunito, sans-serif;
+  margin: 2rem;
+  margin-top: 0rem;
+  font-size: 35px;
+  color: #5a0084e9;
+  font-weight: 600;
+}
+
+.weather-card-child{
+  font-family: Nunito, sans-serif !important;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.weather-card-main{
+  width: 400px !important;
+  height: 200px !important;
+  border-top: 2px solid #6f49e1 !important;
+  border-radius: 1rem !important;
+}
+
+.forecast-card{
+  border-top: 2px solid #41005d !important;
+  text-align: center;
+  border-radius: 1rem !important;
+  height: 150px;
+  width: 200px !important;
+}
+
+.icon-container{
+  position: relative;
+  right: -95px;
+}
+
+.temp-desc{
+  text-transform: capitalize;
+  font-family: Nunito, sans-serif;
+}
+
+.forecast-header{
+  font-family: Nunito, sans-serif !important;
+}
+
+.forecast-main-header{
+  font-family: Nunito, sans-serif;
+  margin: 20px;
+  font-size: 26px;
+  color: #4d0080;
+  font-weight: 600;
+  text-align: center;
+}
+
+.forecast-date{
+  font-family: Nunito, sans-serif !important;
+  font-size: 15px !important; 
+  margin-bottom: 20px;
+}
